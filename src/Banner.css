@@ -1,0 +1,39 @@
+.banner {
+  background: url("https://cdn8.dissolve.com/p/D145_200_682/D145_200_682_1200.jpg");
+  height: 62vh;
+  position: relative;
+}
+
+.banner_info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner_searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner_info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner_info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
